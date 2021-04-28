@@ -1,0 +1,10 @@
+.bounceUp > div:hover {
+    transition: transform 300ms;
+    -webkit-transition: transform 300ms;
+    transform: translate3d(0, -10%, 0);
+}
+
+.bounceUp > div {
+    transition: transform 300ms;
+    -webkit-transition: transform 300ms;
+}

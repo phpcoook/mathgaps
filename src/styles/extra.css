@@ -1,0 +1,159 @@
+body, html {
+	overflow-x: hidden;
+}
+
+/* sticky header */
+
+.header-sticky {
+	z-index: 99;
+	background: linear-gradient(to right, #B2E4FF 0.25%, #8773EF 34.75% , #ABD0FF 65%);
+    box-shadow: rgb(99 99 99 / 10%) 1px 19px 24px -15px;
+}
+
+.header.sticky .navbar {
+	padding: 0;
+}
+
+.header.sticky.fade_down_effect {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-delay: 0.1s;
+	animation-delay: 0.1s;
+}
+
+.border-shape {
+	border: 1px dashed #fff;
+	height: 1px;
+}
+
+.header-btn {
+	filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.12));
+}
+
+.sec-title {
+	display: inline;
+	background-image: linear-gradient(to bottom, #D0C1FA 0%, #D0C1FA 98%);
+	background-repeat: no-repeat;
+	background-position: right 85%;
+	background-size: 100% 12px;
+}
+
+.sectitle-two {
+	background-image: linear-gradient(to bottom, #E5EDD0 0%, #E5EDD0 98%);
+}
+
+.sectitle-three {
+	background-image: linear-gradient(to bottom, #F9EDC6 0%, #F9EDC6 98%);
+}
+
+.getstarted-btn {
+	background: linear-gradient(267.77deg, #FC985F 0%, #AE5FFC 100%);
+	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 10px rgba(0, 0, 0, 0.02)
+}
+
+.hero-title {
+	text-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-card {
+	background: #FFFFFF;
+	border: 1px solid rgba(50, 50, 50, 0.2);
+	border-radius: 10px;
+	padding: 24px 24px 32px;
+}
+
+@-webkit-keyframes animBarInTop {
+	0%, 100% {
+		-webkit-transform: translateY(-80px);
+		transform: translateY(-80px);
+	}
+	50% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+}
+
+@keyframes animBarInTop {
+	0%, 100% {
+		-webkit-transform: translateY(-80px);
+		transform: translateY(-80px);
+	}
+	50% {
+		-webkit-transform: translateY(0px);
+		transform: translateY(0px);
+	}
+}
+
+@-webkit-keyframes animInBottom {
+	from {
+		opacity: 0;
+		-webkit-transform: translateY(100px);
+		transform: translateY(100px);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes animInBottom {
+	from {
+		opacity: 0;
+		-webkit-transform: translateY(100px);
+		transform: translateY(100px);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+ul.tabs {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.tabs li {
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.tab-content {
+	display: none;
+}
+
+.tab-content.current {
+	display: inherit;
+}
+
+
+.tutor-info {
+	background-color: #30C18B;
+}
+
+.footer-text {
+	color: rgba(50, 50, 50, 0.6);
+}
+
+.footer-menu li {
+	position: relative;
+}
+
+.footer-menu li:first-child::before {
+	display: none;
+}
+
+.footer-menu li::before {
+	position: absolute;
+	content: '';
+	left: -12px;
+	top: 50%;
+	background-color: #CECECE;
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+}

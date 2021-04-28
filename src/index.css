@@ -1,0 +1,5 @@
+@import url('./styles/animate.css');
+@import url('./styles/extra.css');
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
